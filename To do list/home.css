@@ -1,0 +1,50 @@
+body {
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    display: flex;
+    justify-content: center; /* Align container horizontally at the center */
+    align-items: center; /* Align container vertically at the center */
+    height: 100vh; /* Take the full height of the viewport */
+    background-color:beige;
+  }
+  .images-container {
+    display: flex; /* Make the container a flex container */
+    justify-content: center; /* Align images horizontally at the center */
+    align-items: center; /* Align images vertically at the center */
+    width: 100%; /* Make the container take full width */
+    max-width: 800px; /* Limit the maximum width of the container */
+  }
+  .full-width-image {
+    width: 900px; /* Set image width to 50% of the container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure image behaves as a block element */
+  }
+  .text-overlay {
+    position: absolute; /* Position the text relative to the container */
+    top: 15%; /* Position text vertically in the middle */
+    left: 50%; /* Position text horizontally in the middle */
+    transform: translate(-50%, -50%); /* Move text to center */
+    font-size: 24px; /* Set font size */
+    color: black; /* Set text color */
+    text-align: center; /* Center align the text */
+}
+.buttonbox {
+    position: absolute; /* Position the text relative to the container */
+    top: 50%; /* Position text vertically in the middle */
+    left: 50%; /* Position text horizontally in the middle */
+    transform: translate(-50%, -50%); /* Move text to center */
+    font-size: 24px; /* Set font size */
+    color: black; /* Set text color */
+    text-align: center; /* Center align the text */
+}
+.button {
+    border-radius: 30px;
+    margin-top: 130px;
+    height: 50px;
+    width: 150px;
+
+}
+.button:hover{
+    background-color: #333;
+    color: white;
+}

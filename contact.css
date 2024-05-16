@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    width: 100%;
+    background: url(image/back-img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-bottom: -2%;
+    border-radius: 10px;
+    
+}
+
+ul{
+    margin-top: 4%;
+
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color:darkmagenta;
+    margin-top: -3%;
+    transition-duration: .4s ease;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: black;
+    border-bottom: 3px solid purple;
+
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 65px;
+    color:Black;
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info span{
+    color: deeppink;
+}
+.info a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+.info a:hover{
+    background-color: lightcoral;
+}
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+  
+
+}
+.image img{
+    position: absolute;
+    height: 130%;
+    left: 40%;
+    transform: translate(-50%);
+    bottom: 0;
+    border-radius: 50px;
+    transition: left 2s ease;
+    
+}
+.image:hover .me{
+    left: 55%;
+    border:2px solid pink;
+    box-shadow:0 0 20px pink,
+               0 0 25px pink;
+
+}
+
+.heading{
+    margin-bottom:1.5rem;
+    color:darkviolet;
+ 
+    font-size:40px;
+    text-align: center;
+
+}
+.heading span{
+    color: deeppink;
+}
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+.btn:hover{
+    background-color: lightcoral;
+}
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.contact form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 1rem auto;
+    text-align: center;
+}
+.contact form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact form .input-box input, 
+.contact form textarea{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 2rem;
+    border: 2px solid black;
+    margin: 0.5rem 0;
+    resize: none;
+}
+.contact form .btn{
+    margin-top: 10px;
+
+}
+.myfooter{
+    position: relative;
+    bottom: -28px;
+    width: 100%;
+    padding: 40px 0;
+    background-color:darksalmon;
+
+}
+.myfooter:hover{
+    border:2px solid deeppink;
+    background-color:black ;
+    color: white;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: purple;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease-in-out;
+
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid deeppink;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer .copyright{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}

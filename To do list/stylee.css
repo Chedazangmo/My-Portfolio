@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('image/notebook.jpg'); /* Change 'background.jpg' to your image file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.todo-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: black;
+    margin-top: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.delete-btn {
+    margin-left: auto;
+    background-color: #ff6347;
+}
+.hidden {
+    display: none;
+}
+.button {
+    border-radius: 30px;
+    
+
+}
+.button:hover{
+    background-color: #333;
+    color: white;
+}
+/* Add this to your existing CSS file */
+.filter-label {
+    color: white;
+}
+
+
