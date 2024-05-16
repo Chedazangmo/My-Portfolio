@@ -10,9 +10,9 @@ This portfolio website serves as a showcase of my skills, projects, and experien
  Features
 
 - Responsive Design: The website is designed to be responsive and optimized for various screen sizes, including desktop, tablet, and mobile.
-- Project Showcase: Showcase your projects with descriptions, images, and links.
-- Skills Section: Highlight your skills and areas of expertise.
-- Contact Information: Provide ways for visitors to get in touch with you, such as email, social media links, or a contact form.
+- Project Showcase: Showcase my projects with descriptions, images, and links.
+- Skills Section: Highlight my skills and areas of expertise.
+- Contact Information: Provide ways for visitors to get in touch with me.
 
 Installation
 
